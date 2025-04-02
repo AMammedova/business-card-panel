@@ -50,6 +50,9 @@
     "update_error": "Failed to update employee!",
     "delete_success": "Employee deleted successfully!",
     "delete_error": "Failed to delete employee!",
+    "search_employees": "Search Employees",
+    "companies": "Companies",
+    "all_companies": "All Companies",
     "validation": {
       "name_required": "Name is required",
       "surname_required": "Surname is required",
@@ -191,9 +194,8 @@
     "qr_codes": "QR Codes",
     "business_card": "Business Card"
   },
-  "header":{
-    "logout":"Logout",
-    "support":"Support"
+  "header": {
+    "logout": "Logout",
+    "support": "Support"
   }
-
 }

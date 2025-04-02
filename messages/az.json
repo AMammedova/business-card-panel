@@ -49,7 +49,9 @@
     "update_error": "İşçini yeniləmək mümkün olmadı!",
     "delete_success": "İşçi uğurla silindi!",
     "delete_error": "İşçi silinərkən xəta baş verdi!",
-
+    "search_employees": "İşçiləri axtar",
+    "companies": "Şirkətlər",
+    "all_companies": "Bütün Şirkətlər",
     "validation": {
       "name_required": "Ad daxil edilməlidir",
       "surname_required": "Soyad daxil edilməlidir",
@@ -177,9 +179,9 @@
     "company": "Şirkət",
     "site_url": "Sayt URL",
     "actions": "Əməliyyatlar",
-    "site_url_placeholder":"URL daxil edin",
-    "url_validation_error":"URL minimum 5 simvol olmalıdır",
-    "company_validation_error":"Şirkət seçilməlidir"
+    "site_url_placeholder": "URL daxil edin",
+    "url_validation_error": "URL minimum 5 simvol olmalıdır",
+    "company_validation_error": "Şirkət seçilməlidir"
   },
   "sidebar": {
     "menu": "Menyu",
@@ -189,11 +191,10 @@
     "logos": "Loqolar",
     "sites": "Saytlar",
     "qr_codes": "QR Kodlar",
-    "business_card":"Biznes Kart"
+    "business_card": "Biznes Kart"
   },
-  "header":{
-    "logout":"Çıxış",
-    "support":"Dəstək"
+  "header": {
+    "logout": "Çıxış",
+    "support": "Dəstək"
   }
-  
 }

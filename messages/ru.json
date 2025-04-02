@@ -49,6 +49,9 @@
     "update_error": "Не удалось обновить сотрудника!",
     "delete_success": "Сотрудник успешно удален!",
     "delete_error": "Ошибка при удалении сотрудника!",
+    "search_employees": "Поиск сотрудников",
+    "companies": "Компании",
+    "all_companies": "Все компании",
     "validation": {
       "name_required": "Имя обязательно",
       "surname_required": "Фамилия обязательна",
@@ -188,10 +191,10 @@
     "logos": "Логотипы",
     "sites": "Сайты",
     "qr_codes": "QR Коды",
-    "business_card":"Визитная карточка"
+    "business_card": "Визитная карточка"
   },
-  "header":{
-    "logout":"Выход",
-    "support":"Поддержка"
+  "header": {
+    "logout": "Выход",
+    "support": "Поддержка"
   }
 }
