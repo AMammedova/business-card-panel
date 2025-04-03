@@ -1,9 +1,8 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import useLocalStorage from "@/hooks/useLocalStorage";
-import {useMenuGroups } from "./constants/menuGroups";
+import { useMenuGroups } from "./constants/menuGroups";
 import ClickOutside from "../ClickOutside";
 // import Logo from "@/shared/icons/Logo";
 import DashBoardIcon from "@/shared/icons/DashBoardIcon";
@@ -17,7 +16,7 @@ interface SidebarProps {
 export default function Sidebar({ sidebarOpen, setSidebarOpen }: SidebarProps) {
   const [pageName, setPageName] = useLocalStorage("selectedMenu", "dashboard");
   const menuGroups = useMenuGroups();
-  const t=useTranslations("sidebar")
+  const t = useTranslations("sidebar");
   return (
     <ClickOutside onClick={() => setSidebarOpen(false)}>
       <aside
@@ -26,12 +25,12 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }: SidebarProps) {
         }`}
       >
         <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-          <Link className="flex items-center gap-4" href="/zzzzzzzz">
+          <div className="flex items-center gap-4">
             {/* <Logo width={36} height={36} /> */}
             <h3 className="text-2xl font-bold text-white sm:text-title-md">
-             {t("business_card")}
+              {t("business_card")}
             </h3>
-          </Link>
+          </div>
 
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -64,7 +63,6 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }: SidebarProps) {
             ))}
           </nav>
         </div>
-
       </aside>
     </ClickOutside>
   );
